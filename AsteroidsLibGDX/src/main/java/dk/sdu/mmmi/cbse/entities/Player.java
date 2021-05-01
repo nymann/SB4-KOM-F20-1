@@ -5,7 +5,7 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.badlogic.gdx.math.MathUtils;
 import dk.sdu.mmmi.cbse.main.Game;
 
-public class Player extends SpaceObject {
+public class Player extends SpaceObject implements IPlayer {
 
   private boolean left;
   private boolean right;

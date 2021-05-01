@@ -1,8 +1,9 @@
 package dk.sdu.mmmi.cbse.entities;
 
+import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import dk.sdu.mmmi.cbse.main.Game;
 
-public class SpaceObject {
+public class SpaceObject implements ISpaceObject {
 
   protected float x;
   protected float y;
@@ -34,4 +35,8 @@ public class SpaceObject {
       y = 0;
     }
   }
+
+  public void update(float dt) {}
+
+  public void draw(ShapeRenderer sr) {}
 }
